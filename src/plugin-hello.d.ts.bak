@@ -1,0 +1,7 @@
+/// <reference types="@docusaurus/module-type-aliases" />
+
+declare module '@docusaurus/plugin-hello' {
+    import type { LoadContext, Plugin } from '@docusaurus/types';
+
+    export default function pluginDebug(context: LoadContext): Plugin<undefined>;
+}
